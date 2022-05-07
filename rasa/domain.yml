@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - greet
+  - slot_options
+  - today
+  - tomorrow
+  - seat1
+  - seat2
+  - seat3
+  - seat4
+  - seat5
+  - seat6
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! Welcome to seat reservation system."
+
+  utter_day:
+  - text: "On which day do you want to book the slot?\n1. Today\n2. Tomorrow"
+
+  utter_slot:
+  - text: "1. 09:00 a.m to 10:00 a.m\n2. 10:00 a.m to 11:00 a.m\n3. 11:00 a.m to 12:00 p.m\n4. 12:00 p.m to 01:00 p.m\n5. 01:00 p.m to 02:00 p.m\n6. 02:00 p.m to 03:00 p.m\n7. 03:00 p.m to 04:00 p.m\n8. 04:00 p.m to 05:00 p.m\nselect options, for ex- 2"
+
+  utter_affirm: 
+  - text: "Great! Your slot has been booked."
+
+  utter_confirmation:
+  - text: "Would you like  to confirm this slot?"
+
+  utter_goodbye:
+  - text: "Thanks for using this bot."
+
+  utter_deny:
+  - text: "Your slot has not booked."
+  
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
