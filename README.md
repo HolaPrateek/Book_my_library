@@ -1,3 +1,3 @@
-PLEASE REFER MASTER BRANCH.
+PLEASE REFER DEV BRANCH for new updated codes.
 # Book_my_Library
-This repository is the main repo for the project we've created for the seat reservation in the Library for the students. 
+This repository is the main repo for the project we've created for the seat reservation system. 
